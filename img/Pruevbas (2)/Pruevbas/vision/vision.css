@@ -1,0 +1,81 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo */
+body {
+    background-color: rgb(20, 20, 20); /* Fondo oscuro */
+    color: #6f6767; /* Color del texto principal */
+    display: flex;
+    flex-direction: column; /* Coloca el header y el contenido en columnas */
+    align-items: center; /* Centra horizontalmente todo el contenido */
+    padding: 0 10px; /* Espaciado lateral */
+    min-height: 100vh; /* Ocupa toda la ventana */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column; /* Coloca el contenido en columnas */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 10px 30px;
+    width: 100%;
+    max-width: 1200px;
+    height: 140px;
+    box-sizing: border-box;
+    border-bottom: 5px solid #e60000;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.5);
+    margin-bottom: 20px; /* Espaciado entre el header y el contenido */
+}
+
+header h1 {
+    font-size: 36px;
+    color: #e60000; /* Rojo demoníaco */
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+
+header h2 {
+    font-size: 20px;
+    color: #ccc;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Sección principal */
+section {
+    max-width: 1200px; /* Ancho máximo del contenido */
+    text-align: center; /* Centra los textos */
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro para el contenido */
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+section h2 {
+    color: #e60000; /* Color rojo para los títulos */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e60000;
+    padding-bottom: 5px;
+}
+
+section p {
+    margin-bottom: 20px;
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+
+/* Pie de página */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>CAMON HOTEL</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="./img/IMG/HOTELCAMON.jpg" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Hogar</a></li>
+          <li><a href="#about">Acerca de</a></li>
+          <li><a href="#service">Servicios</a></li>
+          <li><a href="#explore">Explorar</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <button class="btn nav__btn">Reserva ahora</button>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <p>Sencillo - Unico - amigable</p>
+        <h1>Sientase<br />como en casa en nuestro <span>Hotel</span>.</h1>
+      </div>
+    </header>
+
+    <section class="section__container booking__container">
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">REGITRARSE</label>
+            <input type="text" placeholder="Check In" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">VERIFICAR</label>
+            <input type="text" placeholder="Check Out" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">INVITADO</label>
+            <input type="text" placeholder="Guest" />
+          </div>
+        </div>
+        <div class="input__group input__btn">
+          <button class="btn">ECHA UN VISTAZO</button>
+          
+        </div>
+      </form>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="./img/IMG/about (1).jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">SOBRE NOSOTROS</p>
+        <h2 class="section__header">¡Las mejores vacaciones comienzan aquí!</h2>
+        <p class="section__description">
+            Con un enfoque en alojamiento de calidad, experiencias personalizadas y reservas sin inconvenientes, 
+            nuestra plataforma está dedicada a garantizar que cada viajero se embarque en las vacaciones de sus sueños con confianza y emoción.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Leer mas</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container">
+      <p class="section__subheader">Nuestra sala de estar</p>
+      <h2 class="section__header"></h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="./img/IMG/room-1.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Deluxe con vista al mar</h4>
+            <p>
+                Habitación Deluxe con vista al mar
+                Disfrute del lujo con impresionantes vistas al mar desde su suite privada.
+                
+                Desde $299/noche
+            </p>
+            <h5>Starting from <span>$299/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="./img/IMG/room-2.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Ejecutiva con vista a la ciudad</h4>
+            <p>
+                Habitación ejecutiva con vista a la ciudad
+                Experimente la elegancia urbana y el confort moderno en el corazón de la ciudad.
+                
+                Desde $199/noche
+            </p>
+            <h5>Starting from <span>$199/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="./img/IMG/room-3.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Retiro Familiar En El Jardin</h4>
+            <p>
+                Retiro familiar en el jardín
+                Espacioso y acogedor, perfecto para crear recuerdos preciados con sus seres queridos.
+                
+                Desde $249/noche
+            </p>
+            <h5>Starting from <span>$249/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICIOS</p>
+          <h2 class="section__header">Esfuérzate sólo por lo mejor..</h2>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              Seguridad de alta calidad
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              Servicio de habitaciones las 24 horas
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>
+              Sala de conferencias
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              Soporte de guia turistica
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>25+</h4>
+          <p>Propiedades Dispnibles</p>
+        </div>
+        <div class="banner__card">
+          <h4>350+</h4>
+          <p>Reservas completadas</p>
+        </div>
+        <div class="banner__card">
+          <h4>600+</h4>
+          <p>Clientes satisfechos</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore" id="explore">
+      <p class="section__subheader">EXPLORAR</p>
+      <h2 class="section__header">¿Qué hay de nuevo hoy?.</h2>
+      <div class="explore__bg">
+        <div class="explore__content">
+          <p class="section__description">10 de marzo de 2023</p>
+          <h4>
+            Un nuevo menú está disponible en nuestro hotel.</h4>
+          <button class="btn">Continuar</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="#home"><img src="./img/IMG/HOTELCAMON.jpg" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Descubra un mundo de comodidad, lujo y aventura mientras explora 
+            nuestra cuidada selección de hoteles, 
+            haciendo que cada momento de su escapada sea verdaderamente extraordinario
+          </p>
+          <button class="btn">Reserva ahora</button>
+        </div>
+        <div class="footer__col">
+          <h4>ENLACES RAPIDOS</h4>
+          <ul class="footer__links">
+            <li><a href="https://www.turismobellotour.cl/">Explorar destinos</a></li>
+            <li><a href="#">Ofertas y paquetes especiales</a></li>
+            <li><a href="#">Tipos de habitaciones y comodidades</a></li>
+            <li><a href="#">reseñas y valoraciones de clientes</a></li>
+            <li><a href="https://guias-viajar.com/">Consejos y guias de viaje</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>NUESTROS SERVICIOS</h4>
+          <ul class="footer__links">
+            <li><a href="https://www.conserjesdemadrid.com/">Asistencia de conserjeria</a></li>
+            <li><a href="#">Opciones de reserva flexibles</a></li>
+            <li><a href="https://eldorado.aero/">Traslados al aeropuerto</a></li>
+            <li><a href="https://www.bienestar.org/">bienestar y creacion</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACTENOS</h4>
+          <ul class="footer__links">
+            <li><a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmeet.google.com%3Fhs%3D193&ec=wgc-meet-hero-signin&ltmpl=meet&ifkv=AeZLP9-624ce_GFWCWpLq3Ax4pefV5Ty_8JRwqsJBZ1ap7oUQQln5XrBOz8Zb299ULVTbTQl8nKNYA&ddm=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">camon_hotel@gmail.com</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/"><img src="./img/IMG/facebook.png" alt="facebook" /></a>
+            <a href="https://www.instagram.com/"><img src="./img/IMG/instagram.png" alt="instagram" /></a>
+            <a href="https://www.youtube.com/"><img src="./img/IMG/youtube.png" alt="youtube" /></a>
+            <a href="https://x.com/"><img src="./img/IMG/twitter.png" alt="twitter" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. Todos los derechos reservados.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo general */
+    margin: 0;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex; /* Usamos flexbox para alinear las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.card {
+    background-color: #738ad6; /* Color de fondo de cada tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(20, 20, 20, 0.1); /* Sombra suave */
+    overflow: hidden; /* Oculta el desbordamiento */
+    width: 200px; /* Ancho fijo para las tarjetas */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el mouse */
+}
+
+.image-container {
+    width: 100%; /* Ocupa el 100% del ancho de la tarjeta */
+    height: 200px; /* Altura fija para la imagen */
+    overflow: hidden; /* Oculta el desbordamiento de la imagen */
+}
+
+.image-container img {
+    width: 100%; /* La imagen ocupa el 100% del ancho */
+    height: 100%; /* La imagen ocupa el 100% de la altura */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+.text-container {
+    padding: 15px; /* Espaciado interno */
+}
+
+.text-container h2 {
+    margin: 0; /* Elimina el margen por defecto */
+    font-size: 1.5em; /* Tamaño de fuente para el título */
+    color: #333; /* Color del texto */
+}
+
+.text-container .title {
+    font-weight: bold; /* Negrita para el subtítulo */
+    color: #777; /* Color del subtítulo */
+}
+
+.text-container .biography {
+    margin: 10px 0; /* Margen superior e inferior */
+    color: #555; /* Color del texto de la biografía */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+.icon {
+    display: flex; /* Usamos flexbox para alinear los iconos */
+    justify-content: space-around; /* Espacio igual entre los iconos */
+    margin-top: 10px; /* Margen superior para separar de la biografía */
+}
+
+.icon i {
+    font-size: 1.5em; /* Tamaño de los iconos */
+    color: #333; /* Color de los iconos */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los iconos */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+.icon i:hover {
+    color: #007BFF; /* Cambia el color al pasar el mouse */
+}
